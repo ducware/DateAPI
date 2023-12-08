@@ -24,13 +24,13 @@ jobs:
           dotnet-version: '6.0.x'
 
       - name: Restore
-        run: dotnet restore Date.API.sln
+        run: dotnet restore ./Date.API.sln/Date.API.sln
 
       - name: Build
-        run: dotnet build Date.API.sln --configuration Release --no-restore
+        run: dotnet build ./Date.API.sln/Date.API.sln --configuration Release --no-restore
 
       - name: Publish
-        run: dotnet publish Date.API.sln --configuration Release --no-build --output '${{ env.AZURE_WEB_APP_PACKAGE_PATH }}'
+        run: dotnet publish ./Date.API.sln/Date.API.sln --configuration Release --no-build --output '${{ env.AZURE_WEB_APP_PACKAGE_PATH }}'
       
       - name: Deployment
         uses: azure/webapps-deploy@v2
