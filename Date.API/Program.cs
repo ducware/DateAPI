@@ -9,12 +9,16 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+builder.Services.AddHealthChecks();
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.MapHealthChecks("/");
 
 app.UseSwagger();
 app.UseSwaggerUI();
