@@ -7,7 +7,7 @@ on:
       - main
 
 env:
-  AZURE_WEB_APP_NAME: testtimeapi
+  AZURE_WEB_APP_NAME: dateapiv1
   AZURE_WEB_APP_PACKAGE_PATH: './publish'
   
 
