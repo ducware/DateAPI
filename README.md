@@ -1,6 +1,6 @@
 # Automated API tests using Postman CLI
 
-🔗 **API Empoint**: [https://dateapiv1.azurewebsites.net/v1/times/specific-month?Month=0&Year=](https://dateapiv1.azurewebsites.net/v1/times/specific-month?Month=12&Year=22)0
+🔗 **API Endpoint**: [https://dateapiv1.azurewebsites.net/v1/times/specific-month?Month=0&Year=](https://dateapiv1.azurewebsites.net/v1/times/specific-month?Month=12&Year=22)0
 
 ### ✨ Test case example
 
