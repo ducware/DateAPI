@@ -134,8 +134,6 @@ pm.test("Schema is valid", function () {
 
 ![Untitled](Automated%20API%20tests%20using%20Postman%20CLI%20ca81d5a0caab4c69ac4bc239deb32765/Untitled%203.png)
 
-<details>
-  <summary>Click here to see the hidden text</summary>
-
-  This is the hidden text that will be revealed when you click on the summary.
-</details>
+<!--
+Reference: https://youtu.be/zp5Jh2FIpF0?si=MLdMJsKEImnmlAYN
+-->
